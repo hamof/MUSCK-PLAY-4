@@ -244,18 +244,18 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 });
 
 client.on("message", message => {
- if (message.content === `${prefix}`) {
+ if (message.content === `${prefix}help`) {
   const embed = new Discord.RichEmbed() //by ,$ ReBeL ء , ??#4777 'CODES SERVER'
       .setColor("#000000")//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
       .setDescription(`
-${prefix}play ? لتشغيل أغنية برآبط أو بأسم
-${prefix}skip ? لتجآوز الأغنية الحآلية
-${prefix}pause ? إيقآف الأغنية مؤقتا
-${prefix}resume ? لموآصلة الإغنية بعد إيقآفهآ مؤقتا
-${prefix}vol ? لتغيير درجة الصوت 100 - 0
-${prefix}stop ? لإخرآج البوت من الروم
-${prefix}np ? لمعرفة الأغنية المشغلة حآليا
-${prefix}queue ? لمعرفة قآئمة التشغيل
+${prefix}play  لتشغيل أغنية برآبط أو بأسم
+${prefix}skip  لتجآوز الأغنية الحآلية
+${prefix}pause  إيقآف الأغنية مؤقتا
+${prefix}resume  لموآصلة الإغنية بعد إيقآفهآ مؤقتا
+${prefix}vol  لتغيير درجة الصوت 100 - 0
+${prefix}stop  لإخرآج البوت من الروم
+${prefix}np  لمعرفة الأغنية المشغلة حآليا
+${prefix}queue  لمعرفة قآئمة التشغيل
 
  `)//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
    message.channel.sendEmbed(embed)//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
